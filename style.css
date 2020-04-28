@@ -1,0 +1,187 @@
+body {
+    background-color: rgb(71, 71, 66);
+    padding: 0;
+    margin: 0;
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #ffffff;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #35424a;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: darkgrey 3px solid;
+}
+
+header a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
+    font-weight: bold;
+}
+
+header #logo {
+    float: left;
+    margin-top: 10px;
+    color: lightskyblue;
+}
+
+header nav {
+    float: right;
+    margin-top: 25px;
+    margin-bottom: 5px;
+}
+
+header .current a {
+    color: lightskyblue;
+    font-weight: bold;
+}
+
+header a:hover {
+    color: #cccccc;
+    font-weight: bold;
+}
+
+
+/* hero */
+#hero {
+    min-height: 500px;
+    background: url(./images/mewhitevest.jpg) no-repeat ; 
+    background-size: cover;
+    text-align: center;
+    color: rgb(253, 250, 250);
+    
+}
+
+#hero p {
+    margin-top: 200px;
+    font-size: 19px;
+}
+
+
+#main .page-title {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#aside .text {
+    line-height: 1;
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/* contact section */
+#contact form {
+    margin-top: 20px;
+    
+}
+
+#contact input[type=text] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+    color: #35424a;
+}
+
+#contact input[type=email] {
+    padding: 4px;
+    height: 25px;
+    width: 250px;
+}
+#contact .text2 {
+    width: 500px;
+}
+
+
+.button {
+    height: 38px;
+    background: #35424a;
+    border: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: #ffffff;
+}
+
+
+#icon {
+    margin-top: 40px;
+}
+
+
+#icon a {
+    padding: 20px;
+}
+
+#icon a img {
+    width: 50px;
+    height: auto;
+}
+
+
+/* footer */
+footer {
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #35424a;
+    text-align: center;
+}
+
+
+
+@media(max-width: 768px) {
+    header #logo, header nav, header nav li {
+        float: none;
+        text-align: center;
+        width: 100%;
+        
+    }
+
+    header {
+        padding-bottom: 20px;
+    }
+
+    button{
+        display: block;
+        width: 100%;
+    }
+
+    #contact input[type=text] {
+        display: block;
+        width: 100%;
+    }
+
+    #contact input[type=email] {
+        display: block;
+        width: 100%;
+    }
+}
+
+
+
+
+
+
+
+
+
