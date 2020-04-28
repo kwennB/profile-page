@@ -133,7 +133,7 @@ header a:hover {
 }
 
 #icon a img {
-    width: 50px;
+    width: 30px;
     height: auto;
 }
 
@@ -149,8 +149,8 @@ footer {
 
 
 
-@media(max-width: 768px) {
-    header #logo, header nav, header nav li {
+@media(max-width: 812px) {
+    header #logo, header nav, header nav li, #icon {
         float: none;
         text-align: center;
         width: 100%;
